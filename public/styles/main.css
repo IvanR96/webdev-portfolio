@@ -6,7 +6,7 @@
 
 
 body{
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Helvetica, sans-serif;
     background-color: #212529;
     width: 100%;
 }
@@ -15,10 +15,10 @@ body{
     color: white;
 }
 
-
-.about-page{
-    background-color: #212529;
+.nav a:hover, a:after, a:active{
+    color: red;
 }
+
 
 .image{
     width: 350px;
