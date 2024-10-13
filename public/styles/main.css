@@ -9,17 +9,25 @@ body{
     font-family: Helvetica, sans-serif;
     background-color: #212529;
     width: 100%;
+    height: 100%;
 }
+
 
 .nav a{
     color: white;
 }
 
 .nav a:hover, a:after, a:active{
-    color: red;
+    color: black;
 }
 
 
 .image{
     width: 350px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
