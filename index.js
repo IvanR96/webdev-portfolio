@@ -11,7 +11,6 @@ app.use(express.static('public'));
     contact: "Contact:-(714)585-4951"
 }*/
 
-
 app.get("/", (req,res)=>{
     res.render("index.ejs");
 });
