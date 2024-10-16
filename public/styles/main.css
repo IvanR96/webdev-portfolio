@@ -13,12 +13,23 @@ body{
 }
 
 
+
 .nav a{
     color: white;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 25px;
 }
 
 .nav a:hover, a:after, a:active{
-    color: black;
+    color: white;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+p{
+    font-family: Verdana, sans-serif;
 }
 
 
