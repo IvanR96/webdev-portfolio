@@ -22,7 +22,7 @@ app.get("/about", (req,res)=>{
 app.get("/portfolio", (req,res)=>{
     const projects = [
         {title: 'Rapid Movers', description: 'This website is for a moving company called Rapid Movers', link: 'https://ivanr96.github.io/bootstrap-components/', image: '/images/rapid-movers.jpeg'},
-        {title: 'Project 2', description: 'Description of project 2', link: '#', image: '/images/project2.jpg'}
+        {title: 'Dev Labs', description: 'Web Development agency startup', link: 'https://ivanr96.github.io/webdev-agency/', image: '/images/web-agency.jpeg'}
     ];
     res.render("portfolio.ejs", { projects });
 });
