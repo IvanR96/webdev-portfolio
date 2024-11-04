@@ -32,6 +32,10 @@ p{
     font-family: Verdana, sans-serif;
 }
 
+.portfolio{
+    height: 100vh;
+}
+
 
 .image{
     width: 350px;
